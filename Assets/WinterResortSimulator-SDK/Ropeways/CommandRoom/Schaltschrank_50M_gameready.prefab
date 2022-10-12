@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!205 &8127261226788571539
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6049912482416393970}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.00999999, y: 1.06, z: 0}
+  m_Size: 2.12
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.044475786
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6049912482414452786}
+  m_Enabled: 1
+--- !u!1001 &6049912482416359506
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 21c303bad1dc27c4a9d7b95d69397f6e, type: 3}
+      propertyPath: m_Name
+      value: Schaltschrank_50M_gameready
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 21c303bad1dc27c4a9d7b95d69397f6e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.645437
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 21c303bad1dc27c4a9d7b95d69397f6e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 21c303bad1dc27c4a9d7b95d69397f6e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15833741
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 21c303bad1dc27c4a9d7b95d69397f6e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 21c303bad1dc27c4a9d7b95d69397f6e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 21c303bad1dc27c4a9d7b95d69397f6e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 21c303bad1dc27c4a9d7b95d69397f6e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 21c303bad1dc27c4a9d7b95d69397f6e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 21c303bad1dc27c4a9d7b95d69397f6e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 21c303bad1dc27c4a9d7b95d69397f6e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 21c303bad1dc27c4a9d7b95d69397f6e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 21c303bad1dc27c4a9d7b95d69397f6e, type: 3}
+--- !u!1 &6049912482416393970 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 21c303bad1dc27c4a9d7b95d69397f6e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6049912482416359506}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6049912482414452786 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: 21c303bad1dc27c4a9d7b95d69397f6e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6049912482416359506}
+  m_PrefabAsset: {fileID: 0}
